@@ -82,7 +82,7 @@ Before getting to the point of any Git push operations, you will most likely be 
 
 ### Code Quality
 
-Certain problematic coding patterns can lead to defective code in the future. These problematic patterns can be identified by the static code analysis tool ESLint.
+Certain problematic coding patterns can lead to defective code in the future. These problematic patterns can be identified by the static code analysis tool [ESLint](https://eslint.org/).
 
 ESLint can be run manually via the `yarn lint` script. It is also run automatically as part of the Git `pre-push` hook. Any error or warning found by ESLint will block Git push operations.
 
