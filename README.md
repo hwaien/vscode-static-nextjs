@@ -60,7 +60,7 @@ This script runs a sequence of operations such as running tests, checking format
 
 This is a convenient script for any [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) server to run.
 
-To anticipate failures on the server side, this script is also configured to run on the client side as a Git [`pre-push` hook](https://git-scm.com/docs/githooks#_pre_push).
+To anticipate failures on the server side, this script is also configured to run on the client side as a Git [`pre-push` hook](https://git-scm.com/docs/githooks#_pre_push). (This workspace uses [husky](https://typicode.github.io/husky/) to manage Git hooks.)
 
 ## Guardrails
 
