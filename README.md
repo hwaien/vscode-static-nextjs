@@ -7,8 +7,9 @@ This is a starter kit for a [Next.js](https://nextjs.org/) static HTML website p
 Here are some steps you may need to take when using this template for the first time:
 
 1. Install [Docker](https://www.docker.com/products/docker-desktop) and [Visual Studio Code](https://code.visualstudio.com/Download).
-1. Open the root folder of this repository in Visual Studio Code. Visual Studio Code will ask you to reopen folder in container. Say yes to this prompt.
-1. For safety reasons, you need to explicitly activate this workspace's custom TypeScript settings.
+1. Open the root folder of this repository in Visual Studio Code.
+1. Visual Studio Code will pop up a prompt about detecting a Dev Container configuration file in the folder. Click the "Reopen in Container" button.
+1. Activate this workspace's custom TypeScript settings. (For safety reasons, this must be done explicitly.)
    1. Open a TypeScript file such as `pages/index.tsx`.
    1. Open the [Command Palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette).
    1. Select the "TypeScript: Select TypeScript Version..." command.
