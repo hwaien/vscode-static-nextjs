@@ -110,6 +110,8 @@ Failed tests block Git push operations.
 
 To run the tests manually, use the `yarn test` script.
 
+To debug tests, open Visual Studio Code's [built-in debugger](https://code.visualstudio.com/Docs/editor/debugging), and launch the "Debug Tests" configuration.
+
 ### Formatting
 
 Much productivity is lost when developers debate about styling and formatting issues. Therefore it is prudent to set clear guardrails upfront, to prevent distractions later.
