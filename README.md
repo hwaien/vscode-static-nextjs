@@ -93,7 +93,7 @@ This workspace also configures ESLint to automatically fix problematic coding pa
 
 ### Documentation
 
-Code written without proper documentation can lead to defects in the future if developers need to change the code but misunderstands its intentions.
+Code written without proper documentation can lead to defects in the future if developers need to change the code but misunderstand its intentions.
 
 Proper JavaScript documentation is defined by [JSDoc](https://jsdoc.app/) and enforced by ESLint through [plugin](https://github.com/gajus/eslint-plugin-jsdoc).
 
