@@ -1,0 +1,10 @@
+# What is this file? https://prettier.io/docs/en/ignore.html
+
+# Ignore Next.js files
+.next
+out
+
+# Ignore Yarn files
+.pnp.cjs
+.pnp.loader.mjs
+.yarn

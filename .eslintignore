@@ -1,0 +1,10 @@
+# What is this file? https://eslint.org/docs/user-guide/configuring/ignoring-code
+
+# Ignore Next.js files not under our control
+.next
+out
+
+# Ignore Yarn files not under our control
+.pnp.cjs
+.pnp.loader.mjs
+.yarn
