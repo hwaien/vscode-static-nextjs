@@ -103,7 +103,7 @@ Since enforcement is done by ESLint, see above for expected behaviors.
 
 ### Testing
 
-Proper documentation helps to make code intentions clear, but does not check whether the code's actual behaviors matches the intentions. For this, a testing framework is needed.
+Proper documentation helps to make code intentions clear, but does not check whether the code's actual behaviors match the intentions. For this, a testing framework is needed.
 
 The testing framework of this workspace is [Jest](https://jestjs.io/). Add and maintain tests in the `__tests__` folder.
 
