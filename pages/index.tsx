@@ -1,5 +1,6 @@
-import { NextSeo } from "next-seo";
 import type { NextPage } from "next";
+
+import { NextSeo } from "next-seo";
 import Head from "next/head";
 
 const Home: NextPage = () => (
