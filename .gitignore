@@ -109,3 +109,6 @@ dist
 # Mac
 .DS_Store
 Thumbs.db
+
+# dotenv local files
+.env*.local

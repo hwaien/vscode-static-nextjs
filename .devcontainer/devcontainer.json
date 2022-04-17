@@ -31,7 +31,7 @@
 
   // Run commands after the container is created.
   // For example, using "yarn install" to install husky and setup git hooks.
-  "postCreateCommand": "yarn install",
+  "postCreateCommand": "yarn install && ssh-keygen -t RSA",
 
   // More info on non-root user: https://aka.ms/vscode-remote/containers/non-root.
   "remoteUser": "node"
